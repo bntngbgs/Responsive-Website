@@ -153,8 +153,8 @@ header {
   font-family: 'Barlow Condensed', sans-serif;
   color: var(--neutral-white);
   font-weight: 700;
-  font-size: 1.25rem;
-  letter-spacing: 2px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
   transition: all 0.5s;
 }
 
@@ -262,7 +262,7 @@ header {
 }
 
 .about-us {
-  background-color: var(--neutral-grey);
+  background-color: var(--primary-tint);
   align-self: flex-start;
   padding: 1.5rem;
   border-radius: 16px;
@@ -330,7 +330,6 @@ header {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  max-width: max-content;
   margin: 0 auto;
 }
 
@@ -339,8 +338,12 @@ header {
   color: var(--neutral-white);
   padding: 1.25rem;
   border-radius: 12px;
-  flex: 1 1 250px;
+  flex: 0 1 340px;
 }
+
+/* .ticket-card:last-of-type {
+  flex-grow: 1;
+} */
 
 .ticket-card h2 {
   color: var(--color-primary);
@@ -387,7 +390,7 @@ header {
 }
 
 .benefit p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -521,7 +524,7 @@ header {
 
   .ticket-card {
     padding-inline: 0.75rem;
-    flex: 1 1 220px;
+    flex: 1 1 260px;
   }
 
   .ticket-card h2 {
