@@ -339,6 +339,10 @@ header {
   padding: 1.25rem;
   border-radius: 12px;
   flex: 0 1 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* justify-content: space-around; */
 }
 
 /* .ticket-card:last-of-type {
@@ -348,11 +352,13 @@ header {
 .ticket-card h2 {
   color: var(--color-primary);
   font-size: var(--fs-heading-3);
+  /* margin-block: 0; */
 }
 
 .ticket-card > p {
   padding-bottom: 0.5rem;
   border-bottom: 3px solid var(--secondary-tint);
+  color: var(--neutral-white);
 }
 
 .ticket-card button {
@@ -370,8 +376,16 @@ header {
   width: 48px;
 }
 
-.tickets-benefit {
+/* .tickets-benefit {
   margin-top: 1rem;
+} */
+
+.ticket-card button {
+  /* color: blue; */
+  /* display: inline-block; */
+  /* margin-top: auto; */
+  /* align-self: center; */
+  margin-top: auto;
 }
 
 .benefit {
@@ -392,6 +406,7 @@ header {
 .benefit p {
   font-size: 1rem;
   font-weight: 700;
+  color: var(--color-primary);
 }
 
 /* FOOTER */
@@ -525,6 +540,7 @@ header {
   .ticket-card {
     padding-inline: 0.75rem;
     flex: 1 1 260px;
+    gap: 0.5rem;
   }
 
   .ticket-card h2 {
@@ -599,9 +615,9 @@ header {
     margin-top: 1rem;
   }
 
-  .hero-text h1 {
+  /* .hero-text h1 {
     font-size: var(--fs-heading-1);
-  }
+  } */
 
   .hero-text p {
     font-size: var(--fs-small);
